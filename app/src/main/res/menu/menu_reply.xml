@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_send"
+        android:icon="@drawable/ic_send"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:title="Send" />
+
+    <item
+        android:id="@+id/action_attach_file"
+        android:icon="@drawable/ic_attach_file"
+        app:showAsAction="always"
+        android:orderInCategory="90"
+        android:title="Attach File" />
+
+    <item
+        android:id="@+id/action_cancel"
+        app:showAsAction="never"
+        android:title="Cancel" />
+</menu>
